@@ -11,6 +11,11 @@ import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
+
+    companion object{
+        private const val STATE_RESULT = "state_result"
+    }
+
    private lateinit var inputPanjang :EditText
    private lateinit var inputLebar :EditText
    private lateinit var inputTinggi :EditText
@@ -28,10 +33,19 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btnHitung = findViewById(R.id.btnCalculate)
         tvHasil = findViewById(R.id.tvResult)
 
-
-
         btnHitung.setOnClickListener (this)
+
+        if (savedInstanceState != null){
+            val result = savedInstanceState.getString("state_result")
+            tvHasil.text = result
+        }
     }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putString(STATE_RESULT,tvHasil.text.toString())
+    }
+
 
     override fun onClick(view: View) {
         when(view){
