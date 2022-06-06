@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyIntentApp</string>
+    <string name="move_activity">Pindah Activity</string>
+    <string name="this_move_activity">Ini Move Activity</string>
+    <string name="move_activity_with_data">Pindang Activity Dengan Data</string>
+    <string name="data">imam yusuf bachtiar</string>
+    <string name="move_with_object">PINDAH ACTIVITY DENGAN OBJECT DATA</string>
+    <string name="object_received">ini penerima objek</string>
+    <string name="dial_number">Dial Number</string>
+</resources>
