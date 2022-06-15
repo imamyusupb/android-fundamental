@@ -4,10 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 
-
 class MoveWithDataActivity : AppCompatActivity() {
-
-    companion object {
+    companion object{
         const val EXTRA_AGE = "extra_age"
         const val EXTRA_NAME = "extra_name"
     }
@@ -16,12 +14,13 @@ class MoveWithDataActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_move_with_data)
 
+        val tvDataReceived: TextView = findViewById(R.id.tv_data_received)
+
         val name = intent.getStringExtra(EXTRA_NAME)
-        val umur = intent.getStringExtra(EXTRA_AGE)
+        val age = intent.getIntExtra(EXTRA_AGE,0)
 
-        val result :TextView = findViewById(R.id.tvDataReceived)
-        result.text = "Nama saya $name dan berumur $umur"
-
+        val text = "Name : $name , \nAge : $age years"
+        tvDataReceived.text = text
 
     }
 }

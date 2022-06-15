@@ -9,5 +9,5 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/this_move_activity" />
+        android:text="@string/this_is_moveactivity" />
 </RelativeLayout>
