@@ -3,7 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/drawable/ic_baseline_favorite_fill_20.xml" value="0.1125" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/drawable/ic_baseline_search_20_black.xml" value="0.2169230769230769" />
         <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/font-v26/number.xml" value="0.22962962962962963" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/activity_detail.xml" value="0.18055555555555555" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/activity_favorite.xml" value="0.18055555555555555" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/activity_settings.xml" value="0.18055555555555555" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/activity_splash.xml" value="0.18055555555555555" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/follower_fragment.xml" value="0.18055555555555555" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/following_fragment.xml" value="0.18055555555555555" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/fragment_connection.xml" value="0.20416666666666666" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/fragment_detail_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/fragment_famous_user.xml" value="0.14074074074074075" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/fragment_favorites.xml" value="0.20416666666666666" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/fragment_search_user.xml" value="0.25" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/include_main_search.xml" value="0.18055555555555555" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/item_list_user.xml" value="0.18055555555555555" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/layout/user_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/menu/option_menu.xml" value="0.18055555555555555" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2203125" />
+        <entry key="..\:/android-2022-id/dicoding-bfaa-2022/BFAA3Submission/app/src/main/res/mipmap-anydpi-v26/ic_launcher_github.xml" value="0.2203125" />
       </map>
     </option>
   </component>
