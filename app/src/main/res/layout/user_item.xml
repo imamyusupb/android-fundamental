@@ -27,7 +27,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/iv_list_avatar"
         app:layout_constraintStart_toEndOf="@+id/iv_list_avatar"
         app:layout_constraintTop_toTopOf="@+id/iv_list_avatar"
-        tools:text="masdikaid" />
+        tools:text="Sugeng" />
 
     <ImageButton
         android:id="@+id/btn_favorites"

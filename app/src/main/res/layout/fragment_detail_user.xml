@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/iv_avatar"
-        tools:text="Dika Adi Setiawan" />
+        tools:text="Sugeng Pranowo" />
 
     <TextView
         android:id="@+id/tv_username"
@@ -61,7 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_username"
-        tools:text="Google .Inc" />
+        tools:text="Mi Ayam Yogya" />
 
     <TextView
         android:id="@+id/tv_location"
