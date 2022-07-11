@@ -17,6 +17,10 @@
     <style name="Theme.GithubUser.Launcher" parent="Theme.AppCompat.Light.NoActionBar"/>
 
 
+    <style name="ProggresWhiteAccent">
+        <item name="colorAccent">@color/black</item> <!-- Whatever color you want-->
+    </style>
+
 <!--    // Costume Style-->
     <style name="Detail">
         <item name="android:textColor">@color/black</item>

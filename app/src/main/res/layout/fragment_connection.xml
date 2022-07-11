@@ -18,6 +18,7 @@
 
     <ProgressBar
         android:id="@+id/pb_connection"
+        android:theme="@style/ProggresWhiteAccent"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

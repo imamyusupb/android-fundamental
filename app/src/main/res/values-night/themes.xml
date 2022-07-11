@@ -23,6 +23,10 @@
 
     </style>
 
+    <style name="ProggresWhiteAccent">
+        <item name="colorAccent">@color/white</item> <!-- Whatever color you want-->
+    </style>
+
     <style name="Detail">
         <item name="android:textColor">@color/white</item>
     </style>

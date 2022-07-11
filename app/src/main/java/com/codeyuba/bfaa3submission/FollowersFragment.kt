@@ -52,7 +52,7 @@ class FollowersFragment : Fragment() {
         rvAdapter.setAdapterItemCallback(object : ItemAdapterCallback<UserWithFavStatusLiveData> {
             override fun onItemClicked(view: View?, data: UserWithFavStatusLiveData) {
                 view?.let {
-                    val action = FamousUserFragmentDirections.actionFamousUserFragmentToDetailUserActivity(data.username)
+                    val action = DetailUserFragmentDirections.actionDetailUserFragmentSelf(data.username)
                     view.findNavController().navigate(action)
                 }?: run {
                     Toast.makeText(activity, "failed to open detail ${data.username}", Toast.LENGTH_SHORT).show()
